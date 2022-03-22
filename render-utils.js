@@ -29,7 +29,7 @@ export function renderCandies(candies) {
     const categoryEl = document.createElement('ul');
     const yearEl = document.createElement('p');
 
-    candyEl.classList.add('bands');
+    candyEl.classList.add('candies');
     
     namesEl.textContent = candies.name;
     brandEl.textContent = candies.brand;
@@ -58,7 +58,7 @@ export function renderCars(cars) {
     const yearEl = document.createElement('p');
     const interiorEl = document.createElement('ul');
 
-    carEl.classList.add('bands');
+    carEl.classList.add('cars');
     
     brandEl.textContent = cars.brand;
     typeEl.textContent = cars.type;
@@ -86,7 +86,7 @@ export function renderInstruments(instruments) {
     const yearEl = document.createElement('p');
     const stringCountEl = document.createElement('p');
 
-    instrumentEl.classList.add('bands');
+    instrumentEl.classList.add('instruments');
     
     namesEl.textContent = instruments.name;
     yearEl.textContent = instruments.year_invented;
