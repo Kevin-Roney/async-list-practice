@@ -35,7 +35,7 @@ main {
     display: flex;
 
     justify-content: center;
-    align-items: center;
+
     margin-bottom: calc(var(--footer-height));
 }
 
@@ -43,8 +43,7 @@ section {
     background-color: var(--color5);
     max-width: 80%;
 
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
+
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
@@ -92,7 +91,7 @@ footer {
     padding: 15px;
 }
 .bands:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     background-color: rgba(21, 255, 0, 0.281);
 }
 .bands-list {
@@ -106,7 +105,7 @@ footer {
     padding: 15px;
 }
 .candies:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     background-color: rgba(234, 0, 255, 0.281);
 }
 .candies-list {
@@ -121,7 +120,7 @@ footer {
     padding: 15px;
 }
 .cars:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     background-color: rgba(251, 255, 0, 0.281);
 }
 .cars-list {
@@ -136,7 +135,7 @@ footer {
     padding: 15px;
 }
 .instruments:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     background-color: rgba(255, 0, 0, 0.281);
 }
 .instruments-list {
