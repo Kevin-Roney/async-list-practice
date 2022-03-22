@@ -11,15 +11,6 @@ export async function getAllBands() {
 
     return response.body;
 }
-export async function getBandById(someId) {
-    const response = await client
-        .from('bands')
-        .select('*')
-        .match({ id: someId })
-        .single();
-
-    return response.body;
-}
 
 export async function getAllCandies() {
     const response = await client
@@ -28,15 +19,7 @@ export async function getAllCandies() {
 
     return response.body;
 }
-export async function getCandiesById(someId) {
-    const response = await client
-        .from('candies')
-        .select('*')
-        .match({ id: someId })
-        .single();
 
-    return response.body;
-}
 
 export async function getAllCars() {
     const response = await client
@@ -45,29 +28,12 @@ export async function getAllCars() {
 
     return response.body;
 }
-export async function getCarsById(someId) {
-    const response = await client
-        .from('cars')
-        .select('*')
-        .match({ id: someId })
-        .single();
 
-    return response.body;
-}
 
 export async function getAllInstruments() {
     const response = await client
         .from('instruments')
         .select('*');
-
-    return response.body;
-}
-export async function getInstrumentById(someId) {
-    const response = await client
-        .from('instruments')
-        .select('*')
-        .match({ id: someId })
-        .single();
 
     return response.body;
 }
